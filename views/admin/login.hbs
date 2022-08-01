@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+     <h2 style="text-align: center;">¡Para ingresar al panel de administrador debe ingresar su Usuario y Contraseña!</h2>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/stylesheets/login.css"></head>
+<body>
+    <div class="fondo"></div>
+    <section class="form-login">
+            <form action="/admin/login" method="post">
+         
+                <label for="usuario" class="us">Usuario</label>
+                <input type="text" class="form-control" id="usuario" aria-describedby="emailHelp" name="usuario">
+
+                <label for="password" class="us1">Password</label>
+                <input type="text" class="form-control" id="password" name="password">
+            
+                <button type="submit" class="buttons">Enviar</button>
+            </form>
+            {{#if error}}
+            <p class="p">Usuario Erroneo</p>
+            {{/if}}
+
+</section>
+</body>
+</html>

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body{
+    background-color: rgb(40, 40, 40);
+}
+
+.cuerpo{
+    float: left;
+}
+
+h1,h2,h4,h6{
+    font-family: 'Secular One', sans-serif;
+    color: whitesmoke;
+
+
+}
+
+.footer{
+    background-color: darkgray;
+
+}
+
+.hero{
+    background: url(../img/fondo.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: white;
+
+}
+img {
+    max-width: 40%;
+    max-height: 50%;
+   
+}
+
+
+    .novedades{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        max-width: 90%;
+        max-height: 100%;    
+        font-family: 'Secular One', sans-serif;
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: #a0a0a0;
+        transition: all .2 ease-in-out; display: block;
+        margin-left: px;
+        background-color: rgba(139, 110, 31, 0.837);
+        
+    }
+
+     .novedades1 li a{
+
+        font-family: 'Secular One', sans-serif;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #a0a0a0;
+        transition: all .2s ease-in-out; display: block;
+        text-rendering: auto;
+        margin-right: 20px;
+      
+    }   
+
+    .novedades1 li a:hover {
+        color: black;
+        background-color: #a0a0a0;
+    }
+
+    .novedades1 li a:hover img{
+        filter: none;
+        margin-right: 1.2rem;
+        opacity: 1;
+        
+    }
+
+    .testimonios{
+        background-color: #8d9197;
+        padding-bottom: 4rem !important;
+    }
+
+    .testimonio{
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #000;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #000;
+}
+
+.carousel-indicators li {
+    background-color: #000;
+}
+
+
+.btn-flotante {
+	font-size: 16px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: #c4bfc1; /* Color de fondo */
+	padding: 18px 30px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-flotante:hover {
+	background-color: #2c2fa5; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #121213;
+    border-color: #686a6c;
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+} 
+
+.novedades1{
+    margin: 0;
+        padding: 0;
+        list-style: none;
+        max-width: 90%;
+        max-height: 100%;    
+        font-family: 'Secular One', sans-serif;
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: #a0a0a0;
+        transition: all .2 ease-in-out; display: block;
+        margin-left: px;
+        background-color: rgba(115, 114, 113, 0.837);
+}
